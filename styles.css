@@ -1,35 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-  }
+    text-align: center;
+    width: 100%;
+}
+
+.topnav {
+  border-bottom: 1px solid seashell;
+  text-align: right;
+  background-color: black;
+  height: 69px;
+  top: 0;
+  left: 0;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.topnav-list {
+  display: flex;
+  list-style: none;
+  float: right;
+  margin: 0 !important;
+}
   
-  .topnav {
-   border-bottom: 1px solid seashell;
-   text-align: right;
-   background-color: black;
-   height: 69px;
-   top: 0;
-   position: fixed;
-  }
+.topnav-list li a {
+  margin-left: 20px;
+  text-align: right;
+  color: seashell;
+  text-decoration: none;
+  float: right;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+  text-align: left;
+  float: left;
+}
   
-  .topnav a {
-    padding-left: 15px;
-    color: seashell;
-    text-decoration: underline;
-    text-align: right;
-  }
-  
-  .logo {
-    height: 50px;
-    padding-left: 10px;
-    text-align: left;
-  }
-  
-  .background {
-    width: 1200px;
-    height: 700px;
-    margin-top: 69px;
-  }
+.mission-background {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mission-statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 1200px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.tea-of-the-month-container {
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tea-header {
+  font-size: 34px;
+  margin-top: 50px;
+}
+
+.tea-subheader {
+  font-size: 24px;
+}
+
+.tea-img-with-text {
+  text-align: center;
+  margin: 10px;
+}
+
+.tea-img-with-text img {
+  display: block;
+  margin: 0;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}

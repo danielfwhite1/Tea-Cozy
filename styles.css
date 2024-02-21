@@ -9,13 +9,13 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    width: 1200px;
 }
 
 .topnav {
   border-bottom: 1px solid seashell;
   text-align: right;
   background-color: black;
-  min-width: 1200px;
   height: 69px;
   top: 0;
   left: 0;
@@ -49,7 +49,6 @@ body {
 }
   
 .mission-background {
-  width: 1200px;
   height: 700px;
   margin: auto;
   display: flex;
@@ -82,6 +81,7 @@ body {
 .tea-header {
   font-size: 34px;
   margin-top: 50px;
+  width: 1200px;
 }
 
 .tea-subheader {

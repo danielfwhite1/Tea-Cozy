@@ -49,6 +49,7 @@ body {
 }
   
 .mission-background {
+  background-image: url("img-mission-background.webp");
   height: 700px;
   margin: auto;
   display: flex;
@@ -99,4 +100,40 @@ body {
   text-align: center;
   height: 200px;
   width: 300px;
+}
+
+.location-container {
+  background-image: url("img-locations-background.jpg");
+  height: 500px;
+}
+
+.location-container h2 {
+  padding-top: 80px;
+}
+
+.location-block {
+  margin: auto;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#location-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  margin: 10px;
+  background-color: black;
+  opacity: 1;
+}
+
+p, h3 {
+  margin: 15px;
+  text-align: center;
 }
